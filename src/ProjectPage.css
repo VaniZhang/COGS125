@@ -1,0 +1,56 @@
+/* src/ProjectPage.css */
+
+.project-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+  }
+  
+  .project-header {
+    background-color: #282c34;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .project-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .project-description,
+  .project-features {
+    padding: 1.5rem;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .project-description h2,
+  .project-features h2 {
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .project-features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .project-features li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .project-footer {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .project-footer a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
