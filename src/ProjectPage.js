@@ -1,21 +1,21 @@
 // src/ProjectPage.js
 import React from "react";
 import "./ProjectPage.css";
+import myImage from "./assets/myapp-image.png";
 
 const ProjectPage = () => {
   return (
     <div className="project-page">
       <header className="project-header">
-        <h1>My Project</h1>
-        <p>A brief description of your project goes here.</p>
+        <h1>Vani's Portfolio</h1>
+        <p>I am Vani Zhang. This is portfolio project website.</p>
       </header>
 
       <section className="project-description">
         <h2>About This Project</h2>
         <p>
-          This is where you provide a detailed description of your project, its
-          purpose, and what it aims to accomplish. Highlight the unique
-          features and benefits.
+          i made this poster</p><p>
+          <img src={myImage} alt="My Project Poster" className="project-image" width="500" /> 
         </p>
       </section>
 
@@ -29,8 +29,8 @@ const ProjectPage = () => {
       </section>
 
       <footer className="project-footer">
-        <p>&copy; 2024 Your Name or Company. All rights reserved.</p>
-        <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>&copy; 2024 Vanibulla. All rights reserved.</p>
+        <p>Contact: <a href="ruz053@ucsd.edu">your.email@example.com</a></p>
       </footer>
     </div>
   );
