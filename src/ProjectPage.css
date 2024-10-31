@@ -1,17 +1,17 @@
 /* src/ProjectPage.css */
 
 .project-page {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
+    font-family: "Georgia", serif;
+    margin: 2;
+    padding: 1;
+    color: #2e0101;
     text-align: center;
   }
   
   .project-header {
     background-color: #550c0c;
     color: #e9f4ff;
-    padding: 1rem;
+    padding: 0.5rem;
   }
   
   .project-header h1 {
@@ -25,22 +25,24 @@
     max-width: 800px;
   }
   
-  .project-description h2,
-  .project-features h2 {
-    color: #333;
-    font-size: 1.8rem;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: adds a slight upward movement */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
-  .project-features ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .project-features li {
-    background: #f4f4f4;
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border-radius: 5px;
+  /* Apply the animation to the heading */
+  .project-description h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #460000;
+    margin-bottom: 2.5rem;
+    animation: fadeIn 2s ease-in; /* 2 seconds for gradual effect */
   }
   
   .project-footer {
@@ -53,4 +55,30 @@
     color: #61dafb;
     text-decoration: none;
   }
+
+  .project-page.features-page {
+    background-color: #550c0c; /* Light blue for Features page */
+    color: #ffffff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
+  .features-page h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features-page ul {
+    list-style-type: disc;
+    max-width: 600px;
+    padding: 0;
+  }
+  
+  .features-page li {
+    background: none; /* Remove background from feature items */
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0;
+  }
