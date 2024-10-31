@@ -8,14 +8,13 @@ const ProjectPage = () => {
     <div className="project-page">
       <header className="project-header">
         <h1>Vani's Portfolio</h1>
-        <p>I am Vani Zhang. This is portfolio project website.</p>
       </header>
 
       <section className="project-description">
         <h2>About This Project</h2>
         <p>
-          i made this poster</p><p>
-          <img src={myImage} alt="My Project Poster" className="project-image" width="500" /> 
+          Posters</p><p>
+          <img src={myImage} alt="My Project Poster" className="project-image" width="400" /> 
         </p>
       </section>
 
@@ -30,7 +29,7 @@ const ProjectPage = () => {
 
       <footer className="project-footer">
         <p>&copy; 2024 Vanibulla. All rights reserved.</p>
-        <p>Contact: <a href="ruz053@ucsd.edu">your.email@example.com</a></p>
+        <p>Contact: <a href="ruz053@ucsd.edu">ruz053@ucsd.edu</a></p>
       </footer>
     </div>
   );

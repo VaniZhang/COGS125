@@ -9,9 +9,9 @@
   }
   
   .project-header {
-    background-color: #282c34;
-    color: white;
-    padding: 2rem;
+    background-color: #550c0c;
+    color: #e9f4ff;
+    padding: 1rem;
   }
   
   .project-header h1 {
@@ -44,8 +44,8 @@
   }
   
   .project-footer {
-    background-color: #282c34;
-    color: white;
+    background-color: #550c0c;
+    color: #e9f4ff;
     padding: 1rem;
   }
   
