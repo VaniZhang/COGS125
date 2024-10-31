@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, Navigate } from "react-router-dom";
 import ProjectPage from "./ProjectPage"; // Home page component
 import About from "./About";
 import Features from "./Features";
@@ -22,6 +22,7 @@ const App = () => {
           <Route path="/" element={<ProjectPage />} />  {/* Home page as default route */}
           <Route path="/about" element={<About />} />
           <Route path="/features" element={<Features />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </Router>
